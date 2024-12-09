@@ -17,6 +17,7 @@ class JetstreamServiceProvider extends ServiceProvider
         //
     }
 
+
     /**
      * Bootstrap any application services.
      */
@@ -28,6 +29,7 @@ class JetstreamServiceProvider extends ServiceProvider
 
         Vite::prefetch(concurrency: 3);
     }
+
 
     /**
      * Configure the permissions that are available within the application.
@@ -43,4 +45,5 @@ class JetstreamServiceProvider extends ServiceProvider
             'delete',
         ]);
     }
+    
 }
